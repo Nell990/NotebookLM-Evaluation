@@ -1,0 +1,67 @@
+#The Question:what is data governance
+#NotebookLM Answer:Based on the sources provided and our previous conversation, Data Governance is described as a principled approach to managing data throughout its entire life cycle, from when it is acquired to its use and eventual disposal.
+#Source Document Content: Data governance is a principled approach to managing data during its life cycle, from acquisition to 
+use to disposal.
+#Accuracy and Relavance: The answer correct and also relevant.
+
+#Question: #What is Deontological ethics
+#NotebookLM Answer:Deontological Ethics, also known as duty-based ethics, is discussed within the context of Data Ethics and ethics theories applied to cloud computing.According to the sources,It is an ethics theory.It is based on rules and duties.The fundamental idea is that certain actions are inherently right or wrong, irrespective of their outcomes or consequences.It involves setting rules to distinguish right from wrong.
+#Source Document Content: Ethics based on rules and duties.Implementing a strict no-tolerance policy against using customer data for purposes other than those 
+explicitly agreed to by the customers
+#Accuracy and Relevance: Answer is correct 
+
+#Summarizing Key Concepts
+#The Question:summarize the key concepts of cloud security
+#NoteBookLM Answer: Based on the sources and our conversation history, here are the key concepts of cloud security discussed:
+#Cloud security can be viewed from several different perspectives, including **Data**, **Application**, **Compute**, **Network (Perimeter)**, **Identity**, and **Physical** security.
+Fundamental security terms and concepts relevant to cloud security include:
+*   **Authenticity**: Data being provided by an authorised source. **Non-repudiation** is the inability of a party to deny or challenge the authenticity of an interaction.
+*   **Availability**: Data or services being accessible and usable during a certain time period. The responsibility for availability is generally shared between the Cloud Provider and Carrier, and can extend to the Cloud Consumer if they offer services to third parties.
+*   **Confidentiality** and **Integrity** are also listed as security concepts, although they are not explicitly defined in the provided sources.
+A lack of security is often described in terms of **Threats**, **Vulnerabilities**, and **Risk**:
+*   A **Threat** is a potential security violation that could breach privacy or cause harm, generally by exploiting a known weakness. Threat agents can include Anonymous Attackers, Malicious Service Agents, Trusted Attackers, and Malicious Insiders.
+*   A **Vulnerability** is a weakness that can be exploited due to insufficient or compromised security controls, configuration deficiencies, policy weaknesses, user errors, hardware/firmware flaws, software bugs, or poor security architecture.
+*   **Risk** is the possibility of loss or harm from an activity. It is measured according to its threat level and the number of possible or known vulnerabilities. This involves the probability of a threat occurring to exploit vulnerabilities and the expectation of loss upon the compromised resource. **Risk Management** involves considering the probability and impact of occurrence, and a Risk Assessment Matrix is a tool mentioned for this.
+Improving security involves implementing **Security Controls**, **Mechanisms**, and **Policies**:
+*   **Security Controls** are countermeasures used to prevent or respond to threats and reduce risk.
+*   **Security Mechanisms** are components comprising a defensive framework.
+*   **Security Policies** are sets of security rules and regulations that define how they are implemented and enforced, directing controls and mechanisms.
+Two critical processes for controlling access are **Authentication** and **Authorisation**:
+*   **Authentication** determines who you are – verifying if the system knows you and if you are who you claim to be. Methods include Passwords, **Multi-Factor Authentication (MFA)**, Biometrics, and Security Tokens. Personal best practices for authentication include using long complex passwords, password managers, and auditing tools like haveibeenpwned.com. Azure Active Directory (Azure AD) is mentioned in the context of authentication, including using it with OpenID Connect and offering B2B/B2C capabilities.
+*   **Multi-Factor Authentication (MFA)** uses more than one factor for identification, such as a 100-point identity for a bank account. The types of factors are Knowledge (something you know), Possession (something you have), Physical (something you are), and Location (where you are).
+*   **Authorisation** determines what you can do once you have been authenticated – defining the actions you can perform. **Role Based Access Control (RBAC)** is a method for managing authorisation.
+Key **Cloud Security Threats** specifically mentioned include:
+*   Traffic Eavesdropping
+*   Malicious Intermediary
+*   Denial of Service (DoS)
+*   Insufficient Authorisation
+*   Impersonation
+*   Virtualisation Attacks
+*   Container Attacks, related to a lack of isolation from the host OS. One mitigation discussed is using one service per physical server, though this increases resource usage, cost, and complexity.
+*   Overlapping Trust Boundaries
+Additional considerations mentioned include poorly implemented cloud service deployments, incompatibilities in security policies, and crucial aspects of cloud contracts such as where liability lies, the level of indemnity, and clarifying lines of responsibility in shared models like IaaS vs. SaaS.
+Several **Cloud Security Mechanisms** are listed:
+*   **Encryption**: Ensures message confidentiality. HTTPS uses encryption. Both Symmetric and Asymmetric Encryption are types mentioned.
+*   **Hashing**: Methods like MD5 / SHA 1-3 are used, with SHA2 generally recommended.
+*   **Digital Signatures**: Used for verifying authenticity and non-repudiation. This mechanism is explained through the use of Public Key Infrastructure (PKI).
+*   **Public Key Infrastructure (PKI)**: Involves pairs of public and private keys. A message encrypted with a public key can only be decrypted by the corresponding private key. A common use case is secure communication between two parties, where one uses the other's public key to encrypt, and adds their private key signature, which the recipient verifies using the sender's public key before decrypting with their own private key.
+*   **Identity and Access Management (IAM)**: This mechanism covers Authentication, Authorisation, User Management (identities, groups, managing identities, password policies, role/privilege management), and Credential Management. IAM is a countermeasure against threats like insufficient authorisation, denial of service, overlapping trust boundaries, and virtualisation/containerisation attacks.
+*   **Single Sign On (SSO)**: Mentioned as a mechanism and allows users to access multiple services with one set of credentials.
+*   **Cloud Based Security Groups**: Mentioned as a mechanism.
+*   **Hardening**: Mentioned as a mechanism.
+Finally, **Data Governance** is a key concept, described as a principled approach to managing data throughout its lifecycle to ensure it is **secure, private, accurate, available, and usable**. As discussed previously, this involves actions people must take, processes they must follow, and supporting technology. The sources highlight that a lack of data governance can lead to significant data breaches with severe consequences, citing examples like Yahoo, First American Financial Corporation, Equifax, Marriott International, and Facebook.
+Concepts like **Data Lineage** and the **Principle of Least Privilege** are also listed under security but are not defined in the provided sources.
+
+
+#Hallacunations
+Question:What is Evolution of Chatbot
+Source Document Answer: It has mentioned the concpets through photos but it does not include the answer which NotebookLm has sent
+#NoteBookLM Answer:Based on the sources provided and our conversation history:
+The term "**Evolution of the Chatbot**" is explicitly mentioned in the sources as a topic.
+However, the provided excerpts under this specific heading do not detail the historical evolution or stages of chatbot development.
+The sources do discuss related concepts and mention some examples that could be considered part of the progression of conversational or intelligent systems:
+*   Chatbots are defined as computer programs that simulate and process human conversation, using artificial intelligence (AI) and natural language processing (NLP) to understand questions and automate responses, simulating human conversation.
+*   The evaluation of machine intelligence is discussed, referencing Alan Turing's Imitation Game (Turing Test). A chatbot named Eugene Goostman is mentioned as having passed the test in 2014 by simulating a 13-year-old Ukrainian boy.
+*   Other AI breakthroughs are listed, including chess, Robocup, Roomba, Watson, AlphaGo, Tesla, deep fakes, duplex, and GPT3, which are noted as contributing to the field and appearing in mainstream apps. GPT-3, Bunji, and Cooee are also listed as examples.
+While the sources indicate that the evolution of chatbots is a relevant subject and provide some context through AI evaluation methods and examples of advanced systems, they do not offer a comprehensive timeline or description of the historical evolution of chatbots.
+#This shows Hallasunations
