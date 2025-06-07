@@ -1,0 +1,5 @@
+├── 📂 data/                  # Store test documents  
+├── 📂 outputs/               # NotebookLM responses  
+├── 📂 screenshots/           # Proof of tests  
+├── 📜 README.md              # Summary of findings  
+└── 📜 evaluation_logs.md     # Detailed results  
